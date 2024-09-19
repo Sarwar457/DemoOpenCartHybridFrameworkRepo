@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoOpenCart Automation Suite">
+ <listeners>
+   <listener class-name="com.DemoCart.qa.listeners.MyListeners" />
+ </listeners>
+  <test name="DemoOPenCart TestCases">
+    <classes>
+      <class name="com.demacart.qa.testcases.RegisterTest"/>
+      <class name="com.demacart.qa.testcases.LoginTest"/>
+      <class name="com.demacart.qa.testcases.SearchTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

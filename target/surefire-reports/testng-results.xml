@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="8" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-19T01:23:03 IST" name="DemoOpenCart Automation Suite" finished-at="2024-09-19T01:23:35 IST" duration-ms="32127">
+    <groups>
+    </groups>
+    <test started-at="2024-09-19T01:23:03 IST" name="DemoOPenCart TestCases" finished-at="2024-09-19T01:23:35 IST" duration-ms="32127">
+      <class name="com.demacart.qa.testcases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demacart.qa.testcases.LoginTest@1189dd52]" started-at="2024-09-19T01:23:20 IST" name="setup" finished-at="2024-09-19T01:23:22 IST" duration-ms="2407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.demacart.qa.testcases.LoginTest@1189dd52]" started-at="2024-09-19T01:23:22 IST" name="verifyLoginWithValidCredentials" data-provider="validCredentialsSupplier" finished-at="2024-09-19T01:23:23 IST" duration-ms="706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@111.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demacart.qa.testcases.LoginTest@1189dd52]" started-at="2024-09-19T01:23:23 IST" name="tearDown" finished-at="2024-09-19T01:23:23 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demacart.qa.testcases.LoginTest@1189dd52]" started-at="2024-09-19T01:23:23 IST" name="setup" finished-at="2024-09-19T01:23:25 IST" duration-ms="2475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.demacart.qa.testcases.LoginTest@1189dd52]" started-at="2024-09-19T01:23:25 IST" name="verifyLoginWithValidCredentials" data-provider="validCredentialsSupplier" finished-at="2024-09-19T01:23:26 IST" duration-ms="654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zxcv@123.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[98765]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demacart.qa.testcases.LoginTest@1189dd52]" started-at="2024-09-19T01:23:26 IST" name="tearDown" finished-at="2024-09-19T01:23:26 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demacart.qa.testcases.LoginTest@1189dd52]" started-at="2024-09-19T01:23:26 IST" name="setup" finished-at="2024-09-19T01:23:29 IST" duration-ms="2400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:2, instance:com.demacart.qa.testcases.LoginTest@1189dd52]" started-at="2024-09-19T01:23:29 IST" name="verifyLoginWithInvalidCredentials" finished-at="2024-09-19T01:23:29 IST" duration-ms="579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demacart.qa.testcases.LoginTest@1189dd52]" started-at="2024-09-19T01:23:29 IST" name="tearDown" finished-at="2024-09-19T01:23:30 IST" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demacart.qa.testcases.LoginTest -->
+      <class name="com.demacart.qa.testcases.SearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demacart.qa.testcases.SearchTest@16d04d3d]" started-at="2024-09-19T01:23:30 IST" name="setup" finished-at="2024-09-19T01:23:32 IST" duration-ms="2109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:com.demacart.qa.testcases.SearchTest@16d04d3d]" started-at="2024-09-19T01:23:32 IST" name="verifySearchWithValidProduct" finished-at="2024-09-19T01:23:32 IST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demacart.qa.testcases.SearchTest@16d04d3d]" started-at="2024-09-19T01:23:32 IST" name="tearDown" finished-at="2024-09-19T01:23:33 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demacart.qa.testcases.SearchTest@16d04d3d]" started-at="2024-09-19T01:23:33 IST" name="setup" finished-at="2024-09-19T01:23:35 IST" duration-ms="2033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchWithInValidProduct()[pri:2, instance:com.demacart.qa.testcases.SearchTest@16d04d3d]" started-at="2024-09-19T01:23:35 IST" name="verifySearchWithInValidProduct" finished-at="2024-09-19T01:23:35 IST" duration-ms="315" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[No product msg in search result is not displayed expected [abcd] but found [There is no product that matches the search criteria.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: No product msg in search result is not displayed expected [abcd] but found [There is no product that matches the search criteria.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at com.demacart.qa.testcases.SearchTest.verifySearchWithInValidProduct(SearchTest.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithInValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demacart.qa.testcases.SearchTest@16d04d3d]" started-at="2024-09-19T01:23:35 IST" name="tearDown" finished-at="2024-09-19T01:23:35 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifySearchWithoutAnyProduct()[pri:3, instance:com.demacart.qa.testcases.SearchTest@16d04d3d]" started-at="2024-09-19T01:23:35 IST" name="verifySearchWithoutAnyProduct" finished-at="2024-09-19T01:23:35 IST" depends-on-methods="com.demacart.qa.testcases.SearchTest.verifySearchWithValidProduct, com.demacart.qa.testcases.SearchTest.verifySearchWithInValidProduct" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.demacart.qa.testcases.SearchTest.verifySearchWithoutAnyProduct() on instance com.demacart.qa.testcases.SearchTest@16d04d3d depends on not successfully finished methods 
+[com.demacart.qa.testcases.SearchTest.verifySearchWithValidProduct() on instance com.demacart.qa.testcases.SearchTest@16d04d3d
+com.demacart.qa.testcases.SearchTest.verifySearchWithInValidProduct() on instance com.demacart.qa.testcases.SearchTest@16d04d3d]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.demacart.qa.testcases.SearchTest.verifySearchWithoutAnyProduct() on instance com.demacart.qa.testcases.SearchTest@16d04d3d depends on not successfully finished methods 
+[com.demacart.qa.testcases.SearchTest.verifySearchWithValidProduct() on instance com.demacart.qa.testcases.SearchTest@16d04d3d
+com.demacart.qa.testcases.SearchTest.verifySearchWithInValidProduct() on instance com.demacart.qa.testcases.SearchTest@16d04d3d]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithoutAnyProduct -->
+      </class> <!-- com.demacart.qa.testcases.SearchTest -->
+      <class name="com.demacart.qa.testcases.RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demacart.qa.testcases.RegisterTest@1a451d4d]" started-at="2024-09-19T01:23:03 IST" name="setup" finished-at="2024-09-19T01:23:06 IST" duration-ms="2993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterAnAccountWithMandatoryFields()[pri:1, instance:com.demacart.qa.testcases.RegisterTest@1a451d4d]" started-at="2024-09-19T01:23:06 IST" name="verifyRegisterAnAccountWithMandatoryFields" finished-at="2024-09-19T01:23:07 IST" duration-ms="1002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterAnAccountWithMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demacart.qa.testcases.RegisterTest@1a451d4d]" started-at="2024-09-19T01:23:07 IST" name="tearDown" finished-at="2024-09-19T01:23:08 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demacart.qa.testcases.RegisterTest@1a451d4d]" started-at="2024-09-19T01:23:08 IST" name="setup" finished-at="2024-09-19T01:23:10 IST" duration-ms="2535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterAnAccountWithAllFields()[pri:2, instance:com.demacart.qa.testcases.RegisterTest@1a451d4d]" started-at="2024-09-19T01:23:10 IST" name="verifyRegisterAnAccountWithAllFields" finished-at="2024-09-19T01:23:11 IST" duration-ms="979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterAnAccountWithAllFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demacart.qa.testcases.RegisterTest@1a451d4d]" started-at="2024-09-19T01:23:11 IST" name="tearDown" finished-at="2024-09-19T01:23:12 IST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demacart.qa.testcases.RegisterTest@1a451d4d]" started-at="2024-09-19T01:23:12 IST" name="setup" finished-at="2024-09-19T01:23:14 IST" duration-ms="2469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterAnAccountWithExistingEmailAddress()[pri:3, instance:com.demacart.qa.testcases.RegisterTest@1a451d4d]" started-at="2024-09-19T01:23:14 IST" name="verifyRegisterAnAccountWithExistingEmailAddress" finished-at="2024-09-19T01:23:15 IST" duration-ms="788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterAnAccountWithExistingEmailAddress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demacart.qa.testcases.RegisterTest@1a451d4d]" started-at="2024-09-19T01:23:15 IST" name="tearDown" finished-at="2024-09-19T01:23:15 IST" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demacart.qa.testcases.RegisterTest@1a451d4d]" started-at="2024-09-19T01:23:15 IST" name="setup" finished-at="2024-09-19T01:23:18 IST" duration-ms="2516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisterAnAccountWithoutFillingAnyDetails()[pri:4, instance:com.demacart.qa.testcases.RegisterTest@1a451d4d]" started-at="2024-09-19T01:23:18 IST" name="verifyRegisterAnAccountWithoutFillingAnyDetails" finished-at="2024-09-19T01:23:18 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterAnAccountWithoutFillingAnyDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demacart.qa.testcases.RegisterTest@1a451d4d]" started-at="2024-09-19T01:23:18 IST" name="tearDown" finished-at="2024-09-19T01:23:19 IST" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demacart.qa.testcases.RegisterTest -->
+    </test> <!-- DemoOPenCart TestCases -->
+  </suite> <!-- DemoOpenCart Automation Suite -->
+</testng-results>
